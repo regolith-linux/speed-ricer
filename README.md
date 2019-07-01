@@ -40,6 +40,7 @@ Yes please.
 
 * Support people that want to create their own desktop environments.
 * Enable others to use this repo to publish to their own PPA or other repositories.
+* Provide binary packages as close to vanilla upstream as possible. 
 
 ## How to Build and Publish a Package
 
