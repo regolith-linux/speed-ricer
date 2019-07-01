@@ -27,3 +27,8 @@ sudo apt install polybar
 ## Contributions and Feedback
 
 Yes please.
+
+## Goals
+
+* Support people that want to create their own desktop environments.
+* Enable others to use this repo to publish to their own PPA or other repositories.
