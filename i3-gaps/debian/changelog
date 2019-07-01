@@ -1,0 +1,730 @@
+i3-wm (4.16.1-1ubuntu1ppa1) bionic; urgency=medium
+
+  * Adding correct version number and email for publishing to PPA.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 30 Jun 2019 21:01:09 -0700
+
+i3-wm (4.16-1) unstable; urgency=medium
+
+  * UNRELEASED
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Sun, 04 Nov 2018 14:47:25 +0100
+
+i3-wm (4.15-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Sat, 10 Mar 2018 17:27:26 +0100
+
+i3-wm (4.14.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Sun, 24 Sep 2017 19:21:15 +0200
+
+i3-wm (4.14-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Mon, 04 Sep 2017 07:53:16 +0200
+
+i3-wm (4.13-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Tue, 08 Nov 2016 19:02:16 +0100
+
+i3-wm (4.12-2) unstable; urgency=medium
+
+  * Override lintian warning desktop-entry-contains-unknown-key for
+    DesktopNames, gdm needs that key.
+  * Remove i3-wm.menu to conform to the tech-ctte decision on #741573.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Fri, 01 Apr 2016 15:51:23 +0200
+
+i3-wm (4.12-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Move to debhelper 9
+  * Bump Standards-Version to 3.9.7 (no changes necessary)
+  * debian/watch: verify signature, use https
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Sun, 06 Mar 2016 14:20:38 +0100
+
+i3-wm (4.11-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Wed, 30 Sep 2015 08:50:13 +0200
+
+i3-wm (4.10.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Tue, 08 Sep 2015 09:15:45 +0200
+
+i3-wm (4.10.3-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Thu, 30 Jul 2015 21:51:27 +0200
+
+i3-wm (4.10.2-2) unstable; urgency=medium
+
+  * New upstream release.
+  * experimental to unstable because i3-wm 4.10.2-1 was only in experimental
+    due to the freeze.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Fri, 01 May 2015 20:21:18 +0200
+
+i3-wm (4.10.2-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Thu, 16 Apr 2015 09:02:53 +0200
+
+i3-wm (4.10.1-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Sun, 29 Mar 2015 18:54:07 +0200
+
+i3-wm (4.10-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Sun, 29 Mar 2015 17:46:09 +0200
+
+i3-wm (4.9.1-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Sat, 07 Mar 2015 20:01:46 +0100
+
+i3-wm (4.9-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Sat, 28 Feb 2015 14:53:34 +0100
+
+i3-wm (4.8-2) unstable; urgency=medium
+
+  * Backport two bugfixes:
+    - backport-dpi-fix.patch (Closes: #778460)
+    - backport-i3bar-tray-fix.patch (Closes: #778461)
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Sun, 15 Feb 2015 13:24:42 +0100
+
+i3-wm (4.8-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump standards-version to 3.9.5 (no changes necessary)
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Sun, 15 Jun 2014 19:15:29 +0200
+
+i3-wm (4.7.2-1) unstable; urgency=low
+
+  * New upstream release. (Closes: #736396)
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Thu, 23 Jan 2014 23:03:03 +0100
+
+i3-wm (4.7.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Tue, 21 Jan 2014 19:29:34 +0100
+
+i3-wm (4.7-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Sun, 22 Dec 2013 21:19:02 +0100
+
+i3-wm (4.6-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Wed, 07 Aug 2013 20:53:26 +0200
+
+i3-wm (4.5.1-2) unstable; urgency=low
+
+  * experimental to unstable because i3-wm 4.5.1 was only in experimental due
+    to the freeze.
+  * bump standards-version to 3.9.4 (no changes necessary)
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Tue, 14 May 2013 20:48:16 +0200
+
+i3-wm (4.5.1-1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Mon, 18 Mar 2013 22:50:12 +0100
+
+i3-wm (4.5-1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Tue, 12 Mar 2013 13:51:04 +0100
+
+i3-wm (4.4-1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Tue, 11 Dec 2012 22:52:56 +0100
+
+i3-wm (4.3-1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Wed, 19 Sep 2012 18:13:40 +0200
+
+i3-wm (4.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Wed, 25 Apr 2012 23:19:44 +0200
+
+i3-wm (4.1.2-3) unstable; urgency=low
+
+  * Disable generation of docs/refcard.pdf (Closes: #666363)
+  * Add debian/i3-wm.menu (Closes: #664697)
+  * Bump standards-version to 3.9.3 (no changes needed)
+  * Fix 'section' field of the i3-wm source package to 'x11'
+  * Email change: Michael Stapelberg -> stapelberg@debian.org
+
+ -- Michael Stapelberg <stapelberg@debian.org>  Thu, 12 Apr 2012 16:09:58 +0200
+
+i3-wm (4.1.2-2) unstable; urgency=low
+
+  * Rebuild against libyajl and libxcb from unstable
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Fri, 27 Jan 2012 19:50:29 +0000
+
+i3-wm (4.1.2-1) unstable; urgency=low
+
+  * Bugfix: Don’t lose focus on fullscreen windows when another window gets
+    moved to that workspace
+  * Bugfix: Open new windows in the correct place when assignments match
+  * Bugfix: Fix assignments of floating windows to (yet) unused workspaces
+  * Bugfix: Either use SetInputFocus *or* send WM_TAKE_FOCUS, not both
+  * Bugfix: Respect WM_HINTS.input for WM_TAKE_FOCUS clients
+  * Bugfix: Setup the _NET_SUPPORTING_WM_CHECK atom in a standards-compliant
+    way
+  * Bugfix: Only ignore EnterNotify events after UnmapNotifies from managed
+    windows
+  * Bugfix: Force a new sequence number after UnmapNotify
+  * Bugfix: Position floating windows exactly where their geometry specified
+  * Bugfix: Fix coordinates when the rect of an output changes
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Fri, 27 Jan 2012 19:04:28 +0000
+
+i3-wm (4.1.1-1) unstable; urgency=low
+
+  * Re-add build-arch/build-indep targets to debian/rules (Closes: #648613)
+  * Create a secure temp path instead of a predictable one
+  * ipc: set CLOEXEC on client file descriptors
+  * Fix prototype in include/xcursor.h
+  * Bugfix: Skip dock clients when handling FocusIn events
+  * Bugfix: Fix fullscreen with floating windows
+  * Bugfix: Fix startup when RandR is not present
+  * Bugfix: Retain window position and size when changing floating border
+  * Bugfix: Disallow focusing dock clients via criteria
+  * Bugfix: Don’t create a workspace named 'back_and_forth' on startup
+  * Bugfix: Fix wrong focus in complex tabbed/stacked layouts
+  * Bugfix: Fix resizing for (e.g.) v-split containers in h-split containers
+  * Bugfix: Fix 'resize' command in nested containers
+  * Bugfix: Don’t set the _NET_WM_WORKAREA hint at all
+  * Bugfix: Skip leading whitespace in variable assignments
+  * Bugfix: Make resizing of tiling windows with floating_modifier use absolute
+    coordinates
+  * Bugfix: Make resizing work when pressing floating_modifier + right mouse
+    button on window decorations
+  * Bugfix: Fix setting the same mark repeatedly on different windows
+  * Bugfix: Disallow focusing other windows when in fullscreen mode
+  * Bugfix: Ignore ConfigureRequests with out-of-bound coordinates
+  * Bugfix: Correctly check boundaries and reassign floating windows when
+    moving
+  * Bugfix: Don’t close workspace when there are still floating windows on it
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Sat, 24 Dec 2011 16:23:55 +0100
+
+i3-wm (4.1-1) unstable; urgency=low
+
+  * Switch to dpkg-source 3.0 (quilt) and compat level 7
+  * Implement system tray support in i3bar (for NetworkManager, Skype, …)
+  * i3bar is now configurable in the i3 configfile
+  * Implement support for PCRE regular expressions in criteria
+  * Implement a new assign syntax which uses criteria
+  * Sort named workspaces whose name starts with a number accordingly
+  * Warn on duplicate bindings for the same key
+  * Restrict 'resize' command to left/right for horizontal containers, up/down
+    for vertical containers
+  * Implement support for startup notifications (cursor will change to 'watch',
+    started applications show up on the workspace they have been launched on)
+  * Implement the GET_MARKS IPC request to get all marks
+  * Implement the new_float config option (border style for floating windows)
+  * Implement passing IPC sockets to i3 (systemd-style socket activation)
+  * Implement the 'move output' command to move containers to a specific output
+  * Implement focus switching for floating windows
+  * Implement the window_role criterion (for matching multi-window apps)
+  * Implement a force_xinerama configuration directive
+  * Implement the --get-socketpath, useful for scripts using the IPC interface
+  * Implement the 'move workspace next' and 'move workspace prev' commands
+  * Implement the 'workspace back_and_forth' command and related configuration
+    option
+  * Implement the move command for floating windows
+  * i3 will now handle arbitrary text arguments by sending them as an IPC
+    command, like i3-msg: 'i3 reload' or 'i3 move workspace 3'
+  * Introduce the i3-sensible-{pager,editor,terminal} scripts to execute
+    $PAGER, $EDITOR or an available terminal emulator
+  * i3-input: implement -F (format) option
+  * Bugfix: Preserve marks when restarting
+  * Bugfix: Correctly free old assignments when reloading
+  * Bugfix: Fix flickering when moving floating windows between monitors
+  * Bugfix: Correctly handle ConfigureRequests for floating windows in a
+    multi-monitor environment.
+  * Bugfix: Fix size of floating windows with X11 borders
+  * Bugfix: Always adjust floating window position when moving to another
+    output
+  * Bugfix: Avoid out-of-bounds coordinates when moving floating windows
+  * Bugfix: Don’t steal focus when a window gets destroyed
+  * Bugfix: Correctly split key/value when parsing variables
+  * Bugfix: Correctly revert focus to other floating windows when closing a
+    floating window
+  * Bugfix: Don’t leak the error logfile file descriptor
+  * Bugfix: Don’t steal focus when a window opens on an invisible workspace due
+    to assignments
+  * Bugfix: Fix handling of Mode_switch in i3-input
+  * Bugfix: Close invisible workspaces when they become empty
+  * Bugfix: Don’t invoke interactive resizing when clicking on the decoration
+    of a split container with more than one child (switch focus instead)
+  * Bugfix: Make named workspace assignments work again
+  * Bugfix: RandR: Correctly keep focus on the focused workspace when an output
+    disappears
+  * Bugfix: Insert container at the correct position on workspace level when
+    workspace_layout == default
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Fri, 11 Nov 2011 21:28:15 +0000
+
+i3-wm (4.0.2-1) unstable; urgency=low
+
+  * i3-config-wizard: handle mouse button clicks on <win> and <alt> texts
+  * i3-config-wizard: check the modifier mapping to decide whether to use Mod1
+    or Mod4
+  * migrate-config: use \s, be a bit more whitespace tolerant
+  * userguide: s/mod+h/mod+s for stacking
+  * userguide: provide the default colors in the colors example
+  * userguide: document force_focus_wrapping directive
+  * userguide: properly document the resize command
+  * userguide: properly document command chaining and criteria
+  * Bugfix: Correctly bind on multiple keycodes if a symbol has more than one
+  * Bugfix: Allow multiple criteria in 'for_window'
+  * Bugfix: Ensure a minimum size when using the 'resize' command
+  * Bugfix: Start on the first named workspace, not always on '1'
+  * Bugfix: Fix resize command with direction != up for floating windows
+  * Bugfix: Correctly set the _NET_CLIENT_LIST_STACKING hint (chromium tabbar)
+  * Bugfix: 'workspace <next|prev>' now takes all outputs into account
+  * Bugfix: i3-wsbar: make workspace names clickable again
+  * Bugfix: i3-wsbar: correctly handle EOF on stdin
+  * Bugfix: i3-wsbar: display a separator between workspaces of each output
+  * Bugfix: Correctly handle the 'instance' criterion (WM_CLASS)
+  * Bugfix: Use correct format string in load_layout (fixes crash in restart)
+  * Bugfix: Fix border rendering (border lines were "cutting" through)
+  * Bugfix: Raise floating windows immediately when dragging/resizing
+  * Bugfix: Make focus switching work across outputs again
+  * Bugfix: migration-script: handle resize top/bottom correctly
+  * Bugfix: Fix focus issue when moving containers to workspaces
+  * Bugfix: Warp cursor when changing outputs again
+  * Bugfix: i3bar: fix switching to workspaces with extremely long names
+  * Bugfix: i3bar: fix switching to workspaces "next" and "prev"
+  * Bugfix: i3bar: Correctly allocate pixmap for statuslines which are longer
+    than the screen
+  * Bugfix: i3bar: set statusline = NULL on EOF / SIGCHLD
+  * Bugfix: Correctly initialize the verbose flag
+  * Bugfix: Don’t start with workspace 'next' when the command 'workspace next'
+    is bound in the config file
+  * Bugfix: Set focus to where the mouse pointer is when starting
+  * Bugfix: Don’t change focus when assigned windows start on invisible
+    workspaces
+  * Bugfix: Don’t use absolute paths for exec in the config file
+  * Bugfix: Fix crash when using 'focus mode_toggle' on an empty workspace
+  * Bugfix: Make the 'resize' command work inside tabbed/stacked cons
+  * Bugfix: Correctly place floating windows on their appropriate output
+  * Bugfix: Fix coordinates when moving a floating window to a different output
+  * Bugfix: Correctly keep focus when moving non-leaf windows
+  * Bugfix: Accept '\t' in the set command
+  * Bugfix: Only consider tiling windows when attaching tiling windows to a
+    workspace
+  * Bugfix: Correctly render containers when a split container is focused
+  * Bugfix: Correctly recognize duplicate workspace assignments
+  * Bugfix: Re-enable X11 Eventmask *after* pushing all the X11 changes
+  * Bugfix: Fix focus stealing with assignments of floating windows
+  * Bugfix: Re-implement reconfiguring height of dock windows
+  * Bugfix: IPC: return name_json if available
+  * Bugfix: Make 'floating enable' check for dock windows
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Sun, 28 Aug 2011 19:07:43 +0200
+
+i3-wm (4.0.1-1) unstable; urgency=low
+
+  * Fix the build process of i3bar (Closes: #636274)
+  * Fix the build process on Mac OS X
+  * i3-config-wizard: also start i3bar in the keycode config template
+  * userguide: Remove the obsolete bar.* colors
+  * userguide: Use i3bar instead of dzen2 in the 'exec' example
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Mon, 01 Aug 2011 23:31:06 +0200
+
+i3-wm (4.0-1) unstable; urgency=low
+
+  * In addition to the proper flex/bison based parser for the config file
+    introduced in 3.δ, we now also have a flex/bison parser for commands. What
+    this means is that we can have more human-readable, beautiful command names
+    instead of cryptic commands like 'f' for fullscreen or 'mh' for move left.
+    In fact, the commands for the aforementioned functions *are* 'fullscreen'
+    and 'move left'!
+  * You can now chain commands using ';' (a semicolon). One example for that is
+    'workspace 3 ; exec /usr/bin/urxvt' to switch to a new workspace and open a
+    terminal.
+  * You can specify which windows should be affected by your command by using
+    different criteria. A good example is '[class="Firefox"] kill' to get rid
+    of all Firefox windows.
+  * As the configuration file needs new commands (and a few options are
+    obsolete), you need to change it. To make this process a little bit easier
+    for you, this release comes with the script i3-migrate-config-to-v4. Just
+    run it on your current config file and it will spit out a v4 config file to
+    stdout. To make things even better, i3 automatically detects v3 config files
+    and calls that script, so you never end up with a non-working config :).
+  * Similarly to the criteria when using commands, we now have a 'for_window'
+    configuration directive, which lets you automatically apply certain commands
+    to certain windows. Use it to set border styles per window, for example with
+    'for_window [class="XTerm"] border 1pixel'.
+  * Since dock clients (like dzen2) are now part of the layout tree (as opposed
+    to a custom data structure as before), it was easy to implement top and
+    bottom dock areas. Programs which properly specify the dock hint get placed
+    on the edge of the screen they request. i3bar has the -dtop and -dbottom
+    parameters, for example.
+  * The internal workspace bar is obsolete. Use i3bar instead.
+  * Resizing now works between all windows!
+  * Fullscreen now works for everything!
+  * Floating now works for everything!
+  * Your layout is now preserved when doing an inplace restart.
+  * When you have an error in your config file, a new program called i3-nagbar
+    will tell you so. It offers you two buttons: One to view the error in your
+    $PAGER and one to edit your config in your $EDITOR.
+  * The default config used key symbols (like 'bind Mod1+f fullscreen') instead
+    of key codes. If you use a non-qwerty layout, the program i3-config-wizard
+    can create a key symbol based config file based on your current layout. You
+    can also chose between Windows (Mod4) and Alt (Mod1) as your default
+    modifier. i3-config-wizard will automatically be started as long as you
+    don’t have a configuration file for i3.
+  * Custom X cursor themes are now supported.
+  * The RandR backend now respects the primary output.
+  * A wrong 'font' configuration in your config file will no longer make i3
+    exit. Instead, it will fall back to a different font and tell you about the
+    error in its log.
+  * The default split direction (whether a new window gets placed right next to
+    the current one or below the current one) is now automatically set to
+    horizontal if you have a monitor that is wider than high or vertical if you
+    a monitor which is higher than wide. This works great with rotated monitors.
+  * Sockets and temporary files are now placed in XDG_RUNTIME_DIR, if set (this
+    is used on systemd based systems).
+  * Tools like i3bar, i3-msg etc. use the I3_SOCKET_PATH property which is set
+    to the X11 root window, so you don’t have to configure your socket path
+    anywhere.
+  * The kill command kills single windows by default now. To kill a whole
+    application, use 'kill client'.
+  * IPC: Commands can now have custom replies. When the parser encounters an
+    error, a proper error reply is sent.
+  * There is now an 'exec_always' configuration directive which works like
+    'exec' but will also be run when restarting.
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Sun, 31 Jul 2011 22:34:26 +0200
+
+i3-wm (3.e-bf1-3) unstable; urgency=low
+
+  * include keyboard-layer{1,2}.png in docs (Closes: #595295)
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Wed, 03 Nov 2010 20:32:42 +0100
+
+i3-wm (3.e-bf1-2) unstable; urgency=low
+
+  * debian: call dh_installwm to register as alternative for x-window-manager
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Wed, 23 Jun 2010 18:23:10 +0200
+
+i3-wm (3.e-bf1-1) unstable; urgency=low
+
+  * Bugfix: Correctly initialize workspaces if RandR is not available
+  * Bugfix: Correctly handle asprintf() return value
+  * Bugfix: Update _NET_WM_STATE when clients request changes via ClientMessage
+  * Bugfix: Don’t invert directions when resizing floating clients (top/left)
+  * Bugfix: Don’t leak file descriptors
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Wed, 09 Jun 2010 09:51:10 +0200
+
+i3-wm (3.e-3) unstable; urgency=low
+
+  * Bump debian policy version
+  * Add Recommends: libanyevent-i3-perl, libanyevent-perl, libipc-run-perl
+    which are necessary to use i3-wsbar (which is not core functionality,
+    thus no Depends:) (Closes: #577287)
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Sat, 24 Apr 2010 11:20:19 +0200
+
+i3-wm (3.e-2) unstable; urgency=low
+
+  * Use x-terminal-emulator instead of hard-coded urxvt
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Sun, 04 Apr 2010 19:30:46 +0200
+
+i3-wm (3.e-1) unstable; urgency=low
+
+  * Implement RandR instead of Xinerama
+  * Obey the XDG Base Directory Specification for config file paths
+  * lexer/parser: proper error messages
+  * Add new options -V for verbose mode and -d <loglevel> for debug log levels
+  * Implement resize command for floating clients
+  * Include date of the last commit in version string
+  * Fixed cursor orientation when resizing
+  * Added focus_follows_mouse config option
+  * Feature: Cycle through workspaces
+  * Fix bindings using the cursor keys in default config
+  * added popup for handling SIGSEGV or SIGFPE
+  * Correctly exit when another window manager is already running
+  * Take into account the window’s base_{width,height} when resizing
+  * Disable XKB instead of quitting with an error
+  * Make containers containing exactly one window behave like default containers
+  * Also warp the pointer when moving a window to a another visible workspace
+  * work around clients setting 0xFFFF as resize increments
+  * Move autostart after creating the IPC socket in start process
+  * Restore geometry of all windows before exiting/restarting
+  * When in fullscreen mode, focus whole screens instead of denying to focus
+  * draw consistent borders for each frame in a tabbed/stacked container
+  * Update fullscreen client position/size when an output changes
+  * i3-input: Bugfix: repeatedly grab the keyboard if it does not succeed
+  * put windows with WM_CLIENT_LEADER on the workspace of their leader
+  * use real functions instead of nested functions (enables compilation with
+    llvm-clang)
+  * implement screen-spanning fullscreen mode
+  * floating resize now uses arbitrary corners
+  * floating resize now works proportionally when pressing shift
+  * Don’t use SYNC key bindings for mode_switch but re-grab keys
+  * support PREFIX and SYSCONFDIR in Makefile
+  * make pointer follow the focus when moving to a different screen also for
+    floating clients
+  * start dock clients on the output they request to be started on according
+    to their geometry
+  * handle destroy notify events like unmap notify events
+  * ewmh: correctly set _NET_CURRENT_DESKTOP to the number of the active
+    workspace
+  * ewmh: correctly set _NET_ACTIVE_WINDOW
+  * ewmh: implement support for _NET_WORKAREA (rdesktop can use that)
+  * default ipc-socket path is now ~/.i3/ipc.sock, enabled in the default config
+  * Bugfix: Containers could lose their snap state
+  * Bugfix: Use ev_loop_new to not block SIGCHLD
+  * Bugfix: if a font provides no per-char info for width, fall back to default
+  * Bugfix: lexer: return to INITIAL state after floating_modifier
+  * Bugfix: Don’t leak IPC socket to launched processes
+  * Bugfix: Use both parts of WM_CLASS (it contains instance and class)
+  * Bugfix: Correctly do boundary checking/moving to other workspaces when
+    moving floating clients via keyboard
+  * Bugfix: checked for wrong flag in size hints
+  * Bugfix: Correctly render workspace names containing some non-ascii chars
+  * Bugfix: Correctly position floating windows sending configure requests
+  * Bugfix: Don’t remap stack windows errnously when changing workspaces
+  * Bugfix: configure floating windows above tiling windows when moving them
+    to another workspace
+  * Bugfix: Take window out of fullscreen mode before entering floating mode
+  * Bugfix: Don’t enter BIND_A2WS_COND state too early
+  * Bugfix: only restore focus if the workspace is focused, not if it is visible
+  * Bugfix: numlock state will now be filtered in i3-input and signal handler
+  * Bugfix: Don’t unmap windows when current workspace gets reassigned
+  * Bugfix: correctly translate coordinates for floating windows when outputs
+    change
+  * Bugfix: Correctly switch workspace when using the "jump" command
+  * Bugfix: Fix rendering of workspace names after "reload"
+  * Bugfix: Correctly ignore clicks when in fullscreen mode
+  * Bugfix: Don’t allow fullscreen floating windows to be moved
+  * Bugfix: Don’t render containers which are not visible on hint changes
+  * Some memory leaks/invalid accesses have been fixed
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Tue, 30 Mar 2010 13:11:50 +0200
+
+i3-wm (3.d-bf1-1) unstable; urgency=low
+
+  * Bugfix: Don’t draw window title when titlebar is disabled
+  * Bugfix: Correctly switch border types for floating windows
+  * Bugfix: Correctly replay pointer if the click handler does not trigger
+  * Bugfix: Also allow WORDs as workspace names
+  * Bugfix: Correctly clear the urgency hint if a window gets unmapped without
+    clearing it
+  * Bugfix: Fix resizing of floating windows in borderless/1-px-border mode
+  * Bugfix: Accept underscores in bindsym
+  * Bugfix: Don’t set the urgency flag if the window is focused
+  * Bugfix: Handle stack-limit cols on tabbed containers
+  * Bugfix: Resize client after updating base_width/base_height
+  * Bugfix: Force render containers after setting the client active
+  * Bugfix: Fix two problems in resizing floating windows with right mouse
+  * Bugfix: Use more precise floating point arithmetics
+  * Bugfix: Correctly place new windows below fullscreen windows
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Mon, 21 Dec 2009 22:33:02 +0100
+
+i3-wm (3.d-2) unstable; urgency=low
+
+  * debian: register in doc-base
+  * debian: add watchfile
+  * debian: remove unnecessary priority-field from binary packages
+  * debian: add missing images to documentation
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Mon, 23 Nov 2009 21:56:04 +0100
+
+i3-wm (3.d-1) unstable; urgency=low
+
+  * Implement tabbing (command "T")
+  * Implement horizontal resize of containers (containers! not windows)
+  * Implement the urgency hint for windows/workspaces
+  * Implement vim-like marks (mark/goto command)
+  * Implement stack-limit for further defining how stack windows should look
+  * Implement modes which allow you to use a different set of keybindings
+    when inside a specific mode
+  * Implement changing the default mode of containers
+  * Implement long options (--version, --no-autostart, --help, --config)
+  * Implement 'bt' to toggle between the different border styles
+  * Implement an option to specify the default border style
+  * Use a yacc/lex parser/lexer for the configuration file
+  * The number of workspaces is now dynamic instead of limited to 10
+  * Floating windows (and tiled containers) can now be resized using
+    floating_modifier and right mouse button
+  * Dock windows can now reconfigure their height
+  * Bugfix: Correctly handle multiple messages on the IPC socket
+  * Bugfix: Correctly use base_width, base_height and size increment hints
+  * Bugfix: Correctly send fake configure_notify events
+  * Bugfix: Don’t crash if the numlock symbol cannot be found
+  * Bugfix: Don’t display a colon after unnamed workspaces
+  * Bugfix: If the pointer is outside of the screen when starting, fall back to
+    the first screen.
+  * Bugfix: Initialize screens correctly when not using Xinerama
+  * Bugfix: Correctly handle unmap_notify events when resizing
+  * Bugfix: Correctly warp pointer after rendering the layout
+  * Bugfix: Fix NULL pointer dereference when reconfiguring screens
+  * Explicitly specify -lxcb when linking (Closes: #554860)
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Mon, 09 Nov 2009 20:53:43 +0100
+
+i3-wm (3.c-2) unstable; urgency=low
+
+  * Fix FTBFS on GNU/kFreeBSD and possibly GNU/Hurd (Closes: #542877)
+  * Add manpage for i3-msg
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Mon, 24 Aug 2009 12:23:18 +0200
+
+i3-wm (3.c-1) unstable; urgency=low
+
+  * Implement a reload command
+  * Implement keysymbols in configuration file
+  * Implement assignments of workspaces to screens
+  * Implement named workspaces
+  * Implement borderless/1-px-border windows
+  * Implement command to focus screens
+  * Implement IPC via unix sockets
+  * Correctly render decoration of floating windows
+  * Map floating windows requesting (0x0) to center of their leader/workspace
+  * Optimization: Render stack windows on pixmaps to reduce flickering
+  * Optimization: Directly position new windows to their final position
+  * Bugfix: Repeatedly try to find screens if none are available
+  * Bugfix: Correctly redecorate clients when changing focus
+  * Bugfix: Don’t crash when clients reconfigure themselves
+  * Bugfix: Fix screen wrapping
+  * Bugfix: Fix selecting a different screen with your mouse when not having
+    any windows on the current workspace
+  * Bugfix: Correctly unmap stack windows and don’t re-map them too early
+  * Bugfix: Allow switching layout if there are no clients in the this container
+  * Bugfix: Set WM_STATE_WITHDRAWN when unmapping, unmap windows when
+    destroying
+  * Bugfix: Don’t hide assigned clients to inactive but visible workspaces
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Wed, 19 Aug 2009 13:07:58 +0200
+
+i3-wm (3.b-1) unstable; urgency=low
+
+  * Bugfix: Correctly handle col-/rowspanned containers when setting focus.
+  * Bugfix: Correctly handle col-/rowspanned containers when snapping.
+  * Bugfix: Force reconfiguration of all windows on workspaces which are
+    re-assigned because a screen was detached.
+  * Bugfix: Several bugs in resizing table columns fixed.
+  * Bugfix: Resizing should now work correctly in all cases.
+  * Bugfix: Correctly re-assign dock windows when workspace is destroyed.
+  * Bugfix: Correctly handle Mode_switch modifier.
+  * Bugfix: Don't raise clients in fullscreen mode.
+  * Bugfix: Re-assign dock windows to different workspaces when a workspace
+    is detached.
+  * Bugfix: Fix crash because of workspace-pointer which did not get updated
+  * Bugfix: Correctly initialize screen when Xinerama is disabled.
+  * Bugfix: Fullscreen window movement and focus problems fixed
+  * Implement jumping to other windows by specifying their position or
+    window class/title.
+  * Implement jumping back by using the focus stack.
+  * Implement autostart (exec-command in configuration file).
+  * Implement floating.
+  * Implement automatically assigning clients on specific workspaces.
+  * Implement variables in configfile.
+  * Colors are now configurable.
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Fri, 26 Jun 2009 04:42:23 +0200
+
+i3-wm (3.a-bf2-1) unstable; urgency=low
+
+  * Bugfix: Don't crash when setting focus
+  * Bugfix: Reconfigure bar window when changing resolutions
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Sun, 03 May 2009 23:02:24 +0200
+
+i3-wm (3.a-bf1-1) unstable; urgency=low
+
+  * Bugfix: When entering a stack window with the mouse, set focus to the
+    active client in the container the stack window belongs to.
+  * Bugfix: Correctly filter out the numlock bit. This fixes i3 not reacting
+    to any keybindings after pressing numlock once.
+  * Bugfix: Don't crash when Xinerama is disabled.
+  * Bugfix: Correctly remove client from container when moving to another
+    workspace.
+  * Bugfix: Set focus to the client which was previously focused instead of
+    the next client in container when moving windows out of a container.
+  * Bugfix: Correctly set focus when switching between screens.
+  * Bugfix: Don't crash anymore moving focus to another screen under the
+    following conditions: The screen you switch to has a lower number of cells
+    and/or rows than the current one, you switch focus using your mouse, you
+    previously were in a column/row which is not available on the destination
+    screen.
+  * Bugfix: When switching screens, warp the pointer to the correct
+    destination window.
+  * Bugfix: Store dock clients per screen, not per workspace.
+  * Bugfix: Perform bounds checking for snapped containers.
+  * Bugfix: Send clients their absolute position/size (on the root window) in
+    generated configure events. This fixes problems with xfontsel, xmaple,
+    etc.
+  * Bugfix: Correctly update state when moving fullscreen windows across
+    workspaces.
+  * Bugfix: Correctly restart i3 when not using its absolute path
+  * Bugfix: Drag & Drop in GTK applications works now
+  * Bugfix: Don't hide non-managed windows (libnotify-popups for example)
+    when raising clients in stacked containers.
+  * Bugfix: Correctly restore focus when leaving fullscreen mode
+  * Bugfix: Re-distribute free space when closing customly resized containers,
+    re-evaluate for other containers
+  * Bugfix: When moving windows into different containers, insert them at the
+    correct position.
+  * Bugfix: Correctly set focus when moving windows into other containers
+  * Implement scrolling on stack windows and on the bottom bar.
+  * Create i3-wm-dbg with debug symbols
+  * Don't rely on libxcb-wm any longer, as it got removed in libxcb 0.3.4.
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Sat, 02 May 2009 20:55:46 +0200
+
+i3-wm (3.a-1) unstable; urgency=low
+
+  * First release (Closes: #521709)
+
+ -- Michael Stapelberg <michael@stapelberg.de>  Sun, 29 Mar 2009 18:21:30 +0200

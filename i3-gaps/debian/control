@@ -1,0 +1,61 @@
+Source: i3-wm
+Section: x11
+Priority: extra
+Maintainer: Michael Stapelberg <stapelberg@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-autoreconf,
+               libx11-dev,
+               libxcb-util0-dev (>= 0.3.8),
+               libxcb-keysyms1-dev,
+               libxcb-xinerama0-dev (>= 1.1),
+               libxcb-randr0-dev,
+               libxcb-icccm4-dev,
+               libxcb-cursor-dev,
+               libxcb-xrm-dev,
+               libxcb-xkb-dev,
+               libxkbcommon-dev (>= 0.4.0),
+               libxkbcommon-x11-dev (>= 0.4.0),
+               asciidoc (>= 8.4.4),
+               xmlto,
+               docbook-xml,
+               pkg-config,
+               libev-dev (>= 1:4.04),
+               libyajl-dev (>= 2.0.4),
+               libpcre3-dev (>= 1:8.10),
+               libstartup-notification0-dev (>= 0.10),
+               libcairo2-dev (>= 1.14.4),
+               libpango1.0-dev,
+               libpod-simple-perl
+Standards-Version: 3.9.8
+Homepage: https://i3wm.org/
+
+Package: i3
+Architecture: any
+Depends: i3-wm (=${binary:Version}), ${misc:Depends}
+Recommends: i3lock (>= 2.2), suckless-tools, i3status (>= 2.3), dunst
+Description: metapackage (i3 window manager, screen locker, menu, statusbar)
+ This metapackage installs the i3 window manager (i3-wm), the i3lock screen
+ locker, i3status (for system information) and suckless-tools (for dmenu).
+ These are all the tools you need to use the i3 window manager efficiently.
+
+Package: i3-wm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
+Provides: x-window-manager
+Recommends: xfonts-base, fonts-dejavu-core, libanyevent-i3-perl (>= 0.12), libjson-xs-perl, rxvt-unicode | x-terminal-emulator
+Description: improved dynamic tiling window manager
+ Key features of i3 are good documentation, reasonable defaults (changeable in
+ a simple configuration file) and good multi-monitor support. The user
+ interface is designed for power users and emphasizes keyboard usage. i3 uses
+ XCB for asynchronous communication with X11 and aims to be fast and
+ light-weight.
+ .
+ Please be aware i3 is primarily targeted at advanced users and developers.
+
+Package: i3-wm-dbg
+Architecture: any
+Section: debug
+Depends: i3-wm (=${binary:Version}), ${misc:Depends}
+Description: Debugging symbols for the i3 window manager
+ Debugging symbols for the i3 window manager. Please install this to produce
+ useful backtraces before creating new tickets.
