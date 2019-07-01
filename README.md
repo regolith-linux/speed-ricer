@@ -8,7 +8,15 @@ This repo provides scripts and metadata to build Linux packages for some open so
 
 ## What distros or package managers does it support?
 
-At this time Ubuntu but if anyone cares to provide packages for other systems I'm happy to take pull requests.  
+At this time Ubuntu but if anyone cares to provide packages for other systems I'm happy to take pull requests.
+
+## What packages are available?
+
+Have a look at [this PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/speed-ricer) to see the packages and distro versions available.
+
+### What's a PPA?
+
+It's short for Personal Package Archive and it's a facility provided by Canonical for anyone to host packages for Ubuntu.
 
 ## Where can I get these packages?
 
