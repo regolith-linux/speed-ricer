@@ -35,7 +35,13 @@ Yes please.
 
 ## How to Build and Publish a Package
 
-Here's an example of how to build polybar and push it to your own PPA:
+Here's an example of how to build polybar and push it to your own PPA.
+
+### Setup
+
+See [this concise guide](https://wiki.debian.org/BuildingTutorial) to install the tools and get a familiar with the Debian packaging workflow.
+
+### Get to Business
 
 ```
 $ git clone https://github.com/regolith-linux/speed-ricer.git
