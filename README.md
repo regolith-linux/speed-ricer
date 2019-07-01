@@ -32,3 +32,24 @@ Yes please.
 
 * Support people that want to create their own desktop environments.
 * Enable others to use this repo to publish to their own PPA or other repositories.
+
+## How to Build and Publish a Package
+
+Here's an example of how to build polybar and push it to your own PPA:
+
+```
+$ git clone https://github.com/regolith-linux/speed-ricer.git
+...
+$ cd speed-ricer
+$ wget https://github.com/polybar/polybar/archive/3.1.0.tar.gz # Found in https://github.com/polybar/polybar/releases
+$ mv 3.1.0.tar.gz polybar_3.1.0.orig.tar.gz
+$ debuild -S
+...
+$ ls ..
+LICENSE                                   polybar_3.1.0-1ubuntu1ppa1_source.buildinfo
+polybar                                   polybar_3.1.0-1ubuntu1ppa1_source.changes
+polybar_3.1.0-1ubuntu1ppa1.debian.tar.xz  polybar_3.1.0.orig.tar.gz
+polybar_3.1.0-1ubuntu1ppa1.dsc            README.md
+polybar_3.1.0-1ubuntu1ppa1_source.build
+$ dput -f <YOUR PPA URI> ../polybar_3.1.0-1ubuntu1ppa1_source.changes
+```

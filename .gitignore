@@ -5,3 +5,4 @@ files
 *source.build
 *source.buildinfo
 *source.changes
+*.ppa.upload
