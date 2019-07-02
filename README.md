@@ -18,7 +18,7 @@ Have a look at [this PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/speed-r
 
 It's short for Personal Package Archive and it's a facility provided by Canonical for anyone to host packages for Ubuntu.
 
-## Where can I get these packages?
+## How can I get these packages?
 
 The Ubuntu PPA must be added to your system, and then you can install a package.
 
@@ -31,6 +31,18 @@ Install a package:
 ```
 sudo apt install polybar
 ```
+
+### Examples
+
+#### `i3-gaps`
+
+```
+sudo apt install i3
+```
+
+## A package I'd like isn't available, can it be added?
+
+[File an issue](https://github.com/regolith-linux/speed-ricer/issues) describing the package and version you're looking for and we'll see what can be done.
 
 ## Contributions and Feedback
 
