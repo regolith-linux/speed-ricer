@@ -17,4 +17,4 @@ $ gsettings set org.gnome.desktop.background show-desktop-icons false
 
 ## Reboot and login using the `i3` session
 
-You'll be asked to create a default i3 session.  Once the desktop has loaded, <Super>-Enter will launch a terminal.
+You'll be asked to create a default i3 session.  Once the desktop has loaded, $mod-Enter will launch a terminal.
