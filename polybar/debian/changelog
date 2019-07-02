@@ -1,5 +1,25 @@
-polybar (3.1.0-1ubuntu1ppa1) bionic; urgency=medium
+polybar (3.3.0-2-1ubuntu2) bionic; urgency=medium
+
+  * Take Mr Risser's debian metadata for speed-ricer. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Mon, 01 Jul 2019 08:04:06 -0700
+
+polybar (3.3.0-1-1) bionic; urgency=medium
+
+  * Updated version
+
+ -- Jam Risser <jam@codejam.ninja>  Fri, 02 Mar 2019 02:47:54 -0500
+
+
+polybar (3.3.0-2) bionic; urgency=medium
+
+  * Added cmake
+
+ -- Jam Risser <jam@codejam.ninja>  Fri, 02 Mar 2019 02:47:54 -0500
+
+
+polybar (3.3.0-1) bionic; urgency=medium
 
   * Initial release
 
- -- Ken Gilmer <kgilmer@gmail.com>  Sun, 30 Jun 2019 20:15:37 -0700
+ -- Jam Risser <jam@codejam.ninja>  Fri, 01 Mar 2019 02:47:54 -0500
