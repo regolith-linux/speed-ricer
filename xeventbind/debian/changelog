@@ -1,0 +1,11 @@
+xeventbind (1.0-2regolith1) bionic; urgency=medium
+
+  *  Fix packaging issue.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 05 May 2019 10:38:36 -0700
+
+xeventbind (1.0-1regolith3) bionic; urgency=medium
+
+  * Initial release based on a0b00eda640520c2df1bcc0380c7fa575e1a982f.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 04 May 2019 21:26:37 -0700

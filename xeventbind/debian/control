@@ -1,0 +1,12 @@
+Source: xeventbind
+Section: x11
+Priority: optional
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Build-Depends: debhelper (>= 10), libx11-dev
+Standards-Version: 4.1.2
+Homepage: https://github.com/ritave/xeventbind
+
+Package: xeventbind
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A small utility that runs your executable/script when interesting X11 events are fired.
