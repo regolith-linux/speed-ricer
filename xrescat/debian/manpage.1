@@ -1,0 +1,23 @@
+.TH xrescat 1 "2018-01-27" "xrescat" "User Commands"
+.SH NAME
+xrescat \- Get the value of an X resource.
+.SH SYNOPSIS
+\fBxrescat\fP [\fR\fIOPTION\fR] \fR\fIRESOURCE\fR [\fR\fIDEFAULT\fR]
+.SH DESCRIPTION
+\fBxrescat\fP gets the value of the X resource named
+\fR\fIRESOURCE\fR. Handles wildcards, same as every program which
+uses X resources does.
+.SH OPTIONS
+.PP
+.IP "\fB\-h\fR, \fB\-\-help\fR"
+Display help message.
+.IP "\fB\-v\fR, \fB\-\-version\fR"
+Display version information.
+.SH EXIT STATUS
+\fBxrescat\fP returns \fI0\fR on success, \fI1\fR if the resource
+was not found and \fI-1\fR on error.
+.SH AUTHOR
+Tamir Zahavi-Brunner
+Ken Gilmer
+.SH SEE ALSO
+xrdb(1)
