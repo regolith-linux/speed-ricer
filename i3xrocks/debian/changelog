@@ -1,0 +1,5 @@
+i3xrocks (1.0-1ubuntu1ppa1) bionic; urgency=medium
+
+  * Initial release, from https://github.com/vivien/i3blocks.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 14 Jul 2019 22:17:27 -0700

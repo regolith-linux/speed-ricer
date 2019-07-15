@@ -1,0 +1,86 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: i3xrocks
+Source: https://github.com/regolith-linux/i3xrocks
+
+Files: *
+Copyright: Copyright © 2014 Vivien Didelot <vivien@didelot.org>
+Copyright: Copyright © 2019 Ken Gilmer <kgilmer@gmail.com>
+License: GPL-3+
+
+Files: debian/*
+Copyright: Copyright © 2015 Jason Pleau <jason@jpleau.ca>
+Copyright: Copyright © 2019 Ken Gilmer <kgilmer@gmail.com>
+License: GPL-3+
+
+Files: scripts/bandwidth
+Copyright: Copyright (C) 2012 Stefan Breunig <stefan+measure-net-speed@mathphys.fsk.uni-heidelberg.de>
+           Copyright (C) 2014 kaueraal
+           Copyright (C) 2015 Thiago Perrotta <perrotta.thiago@poli.ufrj.br>
+License: GPL-3+
+
+Files: scripts/battery
+Copyright: Copyright © 2014 Pierre Mavro <deimos@deimos.fr>
+           Copyright © 2014 Vivien Didelot <vivien@didelot.org>
+License: GPL-3+
+
+
+Files: scripts/cpu_usage
+Copyright: Copyright © 2014 Pierre Mavro <deimos@deimos.fr>
+           Copyright © 2014 Vivien Didelot <vivien@didelot.org>
+           Copyright © 2014 Andreas Guldstrand <andreas.guldstrand@gmail.com>
+License: GPL-3+
+
+Files: scripts/disk
+       scripts/load_average
+       scripts/memory
+Copyright: Copyright © 2014 Julien Bonjean <julien@bonjean.info>
+License: GPL-3+
+
+Files: scripts/iface
+Copyright: Copyright © 2014 Julien Bonjean <julien@bonjean.info>
+           Copyright (C) 2014 Alexander Keller <github@nycroth.com>
+License: GPL-3+
+
+Files: scripts/keyindicator
+Copyright: Copyright 2014 Marcelo Cerri <mhcerri at gmail dot com>
+License: GPL-3+
+
+Files: scripts/mediaplayer
+Copyright: Copyright © 2014 Tony Crisci <tony@dubstepdish.com>
+License: GPL-3+
+
+Files: scripts/openvpn
+Copyright: Copyright © Pierre Mavro/Deimosfr <deimos@deimos.fr>
+License: GPL-3+
+
+Files: scripts/temperature
+Copyright: Copyright © 2014 Pierre Mavro <deimos@deimos.fr>
+           Copyright © 2014 Vivien Didelot <vivien@didelot.org>
+           Copyright © 2014 Andreas Guldstrand <andreas.guldstrand@gmail.com>
+           Copyright © 2014 Benjamin Chretien <chretien at lirmm dot fr>
+License: GPL-3+
+
+Files: scripts/volume
+Copyright: Copyright © 2014 Julien Bonjean <julien@bonjean.info>
+           Copyright © 2014 Alexander Keller <github@nycroth.com>
+License: GPL-3+
+
+Files: scripts/wifi
+Copyright: Copyright (C) 2014 Alexander Keller <github@nycroth.com>
+License: GPL-3+
+
+License: GPL-3+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License version 3 as
+ published by the Free Software Foundation
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
