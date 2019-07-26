@@ -1,0 +1,12 @@
+pywal (3.3.0-1ubuntu1ppa2) bionic; urgency=medium
+
+  * Change architecture to 'any'. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Thu, 25 Jul 2019 20:20:59 -0700
+
+pywal (3.3.0-1ubuntu1ppa1) bionic; urgency=medium
+
+  * Initial release
+  * Based on information from https://github.com/themix-project/oomox/tree/master/packaging/ubuntu
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Thu, 25 Jul 2019 19:33:40 -0700
