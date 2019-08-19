@@ -37,7 +37,7 @@ sudo apt install polybar
 #### `i3-gaps`
 
 ```
-sudo apt install i3
+sudo apt install i3-gaps
 ```
 
 ## A package I'd like isn't available, can it be added?
