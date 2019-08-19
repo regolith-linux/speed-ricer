@@ -1,3 +1,9 @@
+i3-gaps-wm (4.16.1-1ubuntu1ppa5) disco; urgency=medium
+
+  * Rename to i3-gaps-wm to prevent collision with baseline package.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 18 Aug 2019 19:00:46 -0700
+
 i3-wm (4.16.1-1ubuntu1ppa1) bionic; urgency=medium
 
   * Adding correct version number and email for publishing to PPA.

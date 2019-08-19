@@ -1,4 +1,4 @@
-Source: i3-wm
+Source: i3-gaps-wm
 Section: x11
 Priority: extra
 Maintainer: Michael Stapelberg <stapelberg@debian.org>
@@ -29,33 +29,35 @@ Build-Depends: debhelper (>= 9),
 Standards-Version: 3.9.8
 Homepage: https://i3wm.org/
 
-Package: i3
+Package: i3-gaps
 Architecture: any
-Depends: i3-wm (=${binary:Version}), ${misc:Depends}
+Depends: i3-gaps-wm (=${binary:Version}), ${misc:Depends}
 Recommends: i3lock (>= 2.2), suckless-tools, i3status (>= 2.3), dunst
-Description: metapackage (i3 window manager, screen locker, menu, statusbar)
- This metapackage installs the i3 window manager (i3-wm), the i3lock screen
+Description: metapackage (i3-gaps window manager, screen locker, menu, statusbar)
+ This metapackage installs the i3-gaps window manager (i3-gaps-wm), the i3lock screen
  locker, i3status (for system information) and suckless-tools (for dmenu).
- These are all the tools you need to use the i3 window manager efficiently.
+ These are all the tools you need to use the i3-gaps window manager efficiently.
 
-Package: i3-wm
+Package: i3-gaps-wm
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
-Provides: x-window-manager
+Provides: x-window-manager, i3-wm
+Replaces: i3-wm
+Conflicts: i3-wm
 Recommends: xfonts-base, fonts-dejavu-core, libanyevent-i3-perl (>= 0.12), libjson-xs-perl, rxvt-unicode | x-terminal-emulator
 Description: improved dynamic tiling window manager
- Key features of i3 are good documentation, reasonable defaults (changeable in
+ Key features of i3-gaps are good documentation, reasonable defaults (changeable in
  a simple configuration file) and good multi-monitor support. The user
- interface is designed for power users and emphasizes keyboard usage. i3 uses
+ interface is designed for power users and emphasizes keyboard usage. i3-gaps uses
  XCB for asynchronous communication with X11 and aims to be fast and
  light-weight.
  .
- Please be aware i3 is primarily targeted at advanced users and developers.
+ Please be aware i3-gaps is primarily targeted at advanced users and developers.
 
-Package: i3-wm-dbg
+Package: i3-gaps-wm-dbg
 Architecture: any
 Section: debug
-Depends: i3-wm (=${binary:Version}), ${misc:Depends}
-Description: Debugging symbols for the i3 window manager
- Debugging symbols for the i3 window manager. Please install this to produce
+Depends: i3-gaps-wm (=${binary:Version}), ${misc:Depends}
+Description: Debugging symbols for the i3-gaps window manager
+ Debugging symbols for the i3-gaps window manager. Please install this to produce
  useful backtraces before creating new tickets.

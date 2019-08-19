@@ -1,0 +1,11 @@
+man/i3.man
+man/i3-msg.man
+man/i3-input.man
+man/i3-nagbar.man
+man/i3-config-wizard.man
+man/i3-dump-log.man
+man/i3-migrate-config-to-v4.man
+man/i3-sensible-pager.man
+man/i3-sensible-editor.man
+man/i3-sensible-terminal.man
+man/i3bar.man
