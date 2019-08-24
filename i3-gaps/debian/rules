@@ -4,6 +4,9 @@
 export V:=1
 export DEB_BUILD_MAINT_OPTIONS = hardening=+all
 
+override_dh_installman:
+    # Disable this task
+
 override_dh_installchangelogs:
 	dh_installchangelogs RELEASE-NOTES-*
 
@@ -12,9 +15,6 @@ override_dh_strip:
 
 override_dh_auto_test:
 	# TODO: enable tests
-
-override_dh_installman:
-	# Removed due to errors.
 
 override_dh_auto_configure:
 	# The default is /usr/share/doc/i3
