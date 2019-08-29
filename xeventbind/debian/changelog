@@ -1,3 +1,9 @@
+xeventbind (1.0-3ubuntu1~ppa1) disco; urgency=medium
+
+  * Fix package version 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Thu, 29 Aug 2019 07:42:55 -0700
+
 xeventbind (1.0-2regolith1) bionic; urgency=medium
 
   *  Fix packaging issue.
