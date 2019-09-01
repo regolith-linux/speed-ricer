@@ -1,0 +1,48 @@
+Source: compton
+Section: x11
+Priority: optional
+Maintainer: Walter Lapchynski <wxl@ubuntu.com>
+Uploaders: Simon Quigley <tsimonq2@debian.org>
+Build-Depends:
+ asciidoc,
+ debhelper-compat (= 12),
+ docbook-xml,
+ docbook-xsl,
+ libconfig-dev,
+ libdbus-1-dev,
+ libevdev-dev,
+ libev-dev,
+ libgl1-mesa-dev,
+ libpixman-1-dev,
+ libpcre3-dev,
+ libxcb1-dev,
+ libxcb-composite0-dev,
+ libxcb-damage0-dev,
+ libxcb-image0-dev,
+ libxcb-present-dev,
+ libxcb-randr0-dev,
+ libxcb-render0-dev,
+ libxcb-render-util0-dev,
+ libxcb-shape0-dev,
+ libxcb-xfixes0-dev,
+ libxcb-xinerama0-dev,
+ libxdg-basedir-dev,
+ libxext-dev,
+ meson,
+ pkg-config,
+ uthash-dev,
+ xsltproc
+Standards-Version: 4.4.0
+Homepage: https://github.com/yshui/compton
+
+Package: compton
+Architecture: any
+Depends:
+ libevdev2,
+ python3,
+ ${misc:Depends},
+ ${shlibs:Depends}
+Description: compositor for X11, based on xcompmgr
+ compton is a compositor for X11, based on xcompmgr. In addition to shadows,
+ fading and translucency, compton implements window frame opacity control,
+ inactive window transparency, and shadows on argb windows.

@@ -1,0 +1,3 @@
+version=3
+opts="uversionmangle=s/_/~/" \
+https://github.com/yshui/compton/tags .*/v(\d[\d\.\w]+)\.tar\.gz

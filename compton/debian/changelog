@@ -1,0 +1,104 @@
+compton (7.3-0ubuntu1~ppa6) disco; urgency=medium
+
+  * No source change, update for publish to speed-ricer for testing. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Thu, 22 Aug 2019 08:00:14 -0700
+
+compton (7.3-0ubuntu1~ppa5) eoan; urgency=medium
+
+  * Added xsltproc to Build-Depends.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sun, 18 Aug 2019 23:58:00 -0700
+
+compton (7.3-0ubuntu1~ppa4) eoan; urgency=medium
+
+  * Added docbook-xsl as Build-Depend.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sun, 18 Aug 2019 23:45:51 -0700
+
+compton (7.3-0ubuntu1~ppa3) eoan; urgency=medium
+
+  * Added docbook-xml as Build-Depend for XML validation.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sun, 18 Aug 2019 23:39:50 -0700
+
+compton (7.3-0ubuntu1~ppa2) eoan; urgency=medium
+
+  * Bump Standards Version to 4.4.0 which works now that I updated. Oops.
+  * Drop .py extension from compton-convgen.
+  * Change maintainer/uploaders.
+  * Build docs by default.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sun, 18 Aug 2019 19:36:40 -0700
+
+compton (7.3-0ubuntu1~ppa1) eoan; urgency=medium
+
+  * New upstream release.
+  * Dropped test.h patch.
+  * Dropped Standards Version to 4.3.0 (even though 4.4.0 is supposedly
+    current) to make Lintian happy.
+  * Updated URI in copyright.
+  * Used https for URIs in copyright.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sun, 18 Aug 2019 16:09:44 -0700
+
+compton (7.2-0ubuntu1~ppa6) eoan; urgency=medium
+
+  * Added asciidoc.
+  * FYI: intentionally skipped a version.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sat, 17 Aug 2019 18:33:15 -0700
+
+compton (7.2-0ubuntu1~ppa4) eoan; urgency=medium
+
+  * Swapped libpcre2 with libpcre3.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sat, 17 Aug 2019 18:14:41 -0700
+
+compton (7.2-0ubuntu1~ppa3) eoan; urgency=medium
+
+  * Bump debhelper & Standards Version, no change necessary.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sat, 17 Aug 2019 18:09:21 -0700
+
+compton (7.2-0ubuntu1~ppa2) eoan; urgency=medium
+
+  * Added libev-dev depend.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sat, 17 Aug 2019 18:04:26 -0700
+
+compton (7.2-0ubuntu1~ppa1) eoan; urgency=medium
+
+  * Switch upstream to yshui's fork.
+
+ -- Walter Lapchynski <wxl@ubuntu.com>  Sat, 17 Aug 2019 16:53:10 -0700
+
+compton (0.1~beta2+20150922-1) unstable; urgency=low
+
+  * Update to upstream git snapshot (v0.1_beta2-83-g2343e4b)
+  * Remove old patches which no longer apply.
+  * Update package VCS URLs.
+  * Bump Standards-Version from 3.9.4 to 3.9.7.
+  * Update copyright holder information.
+  * Set hardcoded version string to that in debian/changelog.
+  * Enable all hardening build options.
+  * Add patch for keywords entry in .desktop file.
+  * Patch bashism in compton-trans script. (Closes: #772216)
+
+ -- Scott Leggett <scott@sl.id.au>  Wed, 27 Apr 2016 14:39:44 +1000
+
+compton (0.1~beta2-1) unstable; urgency=low
+
+  * New upstream release, 0.1~beta2.
+  * Drop unnecessary dependency on hardening-wrapper.
+  * Add libxinerama-dev dependency due to upstream changes.
+  * Change licence tag to Expat.
+  * Update patches.
+
+ -- Scott Leggett <scott@sl.id.au>  Sun, 03 Nov 2013 19:55:25 +1100
+
+compton (0.1~beta1-1) unstable; urgency=low
+
+  * Initial release (Closes: #679551)
+
+ -- Scott Leggett <scott@sl.id.au>  Wed, 21 Aug 2013 20:13:37 +1000

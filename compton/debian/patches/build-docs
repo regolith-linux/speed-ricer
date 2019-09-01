@@ -1,0 +1,14 @@
+Description: Build documentation by default.
+Author: Walter Lapchynski <wxl@ubuntu.com>
+Last-Update: 2019-08-18
+--- a/meson_options.txt
++++ b/meson_options.txt
+@@ -9,7 +9,7 @@ option('dbus', type: 'boolean', value: t
+ 
+ option('xrescheck', type: 'boolean', value: false, description: 'Enable X resource leak checker (for debug only)')
+ 
+-option('build_docs', type: 'boolean', value: false, description: 'Build documentation and man pages')
++option('build_docs', type: 'boolean', value: true, description: 'Build documentation and man pages')
+ 
+ option('modularize', type: 'boolean', value: false, description: 'Build with clang\'s module system')
+ 

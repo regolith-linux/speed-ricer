@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+# Set binary version
+include /usr/share/dpkg/pkg-info.mk
+export COMPTON_VERSION = $(DEB_VERSION_UPSTREAM)
+
+%:
+	dh $@
