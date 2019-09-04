@@ -1,3 +1,9 @@
+compton (7.3-0ubuntu1~ppa8) bionic; urgency=medium
+
+  * Specify debhelper-compat v11 for Bionic support 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 01 Sep 2019 10:42:53 -0700
+
 compton (7.3-0ubuntu1~ppa6) disco; urgency=medium
 
   * No source change, update for publish to speed-ricer for testing. 
