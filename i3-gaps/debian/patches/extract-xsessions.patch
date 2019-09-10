@@ -1,0 +1,17 @@
+Index: i3-gaps/Makefile.am
+===================================================================
+--- i3-gaps.orig/Makefile.am
++++ i3-gaps/Makefile.am
+@@ -36,12 +36,8 @@ dist_i3conf_DATA = \
+ 	etc/config.keycodes
+ 
+ applicationsdir = $(datarootdir)/applications
+-xsessionsdir = $(datarootdir)/xsessions
+ dist_applications_DATA = \
+ 	share/applications/i3.desktop
+-dist_xsessions_DATA = \
+-	share/xsessions/i3.desktop \
+-	share/xsessions/i3-with-shmlog.desktop
+ 
+ noinst_LIBRARIES = libi3.a
+ 

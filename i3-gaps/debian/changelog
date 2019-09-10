@@ -1,3 +1,9 @@
+i3-gaps-wm (4.16.1-1ubuntu1ppa14) disco; urgency=medium
+
+  * Extract xsession into seperate binary package.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Mon, 09 Sep 2019 21:10:26 -0700
+
 i3-gaps-wm (4.16.1-1ubuntu1ppa9) disco; urgency=medium
 
   * Renable manpage generation, previously disabled due to errors. 

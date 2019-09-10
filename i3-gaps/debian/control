@@ -25,16 +25,17 @@ Build-Depends: debhelper (>= 9),
                libstartup-notification0-dev (>= 0.10),
                libcairo2-dev (>= 1.14.4),
                libpango1.0-dev,
-               libpod-simple-perl
+               libpod-simple-perl,
+               quilt
 Standards-Version: 3.9.8
 Homepage: https://i3wm.org/
 
 Package: i3-gaps
 Architecture: any
-Depends: i3-gaps-wm (=${binary:Version}), ${misc:Depends}
+Depends: i3-gaps-wm (=${binary:Version}), i3-gaps-session (=${binary:Version}), ${misc:Depends}
 Recommends: i3lock (>= 2.2), suckless-tools, i3status (>= 2.3), dunst
 Description: metapackage (i3-gaps window manager, screen locker, menu, statusbar)
- This metapackage installs the i3-gaps window manager (i3-gaps-wm), the i3lock screen
+ This metapackage installs the i3-gaps window manager (i3-gaps-wm), xsession, the i3lock screen
  locker, i3status (for system information) and suckless-tools (for dmenu).
  These are all the tools you need to use the i3-gaps window manager efficiently.
 
@@ -61,3 +62,8 @@ Depends: i3-gaps-wm (=${binary:Version}), ${misc:Depends}
 Description: Debugging symbols for the i3-gaps window manager
  Debugging symbols for the i3-gaps window manager. Please install this to produce
  useful backtraces before creating new tickets.
+
+Package: i3-gaps-session
+Architecture: any
+Depends: i3-gaps-wm (=${binary:Version}), ${misc:Depends}
+Description: Xsession for i3-gaps

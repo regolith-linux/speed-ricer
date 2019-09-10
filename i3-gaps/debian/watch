@@ -1,3 +1,0 @@
-version=3
-opts=pgpsigurlmangle=s/$/.asc/ \
-  https://i3wm.org/downloads/ /downloads/i3-(.*)\.tar\.bz2
