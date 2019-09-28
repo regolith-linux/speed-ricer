@@ -1,0 +1,5 @@
+fonts-source-code-pro-ttf (1.010-0ubuntu1) xenial; urgency=low
+
+  * Initial release (Closes: #1056512)
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 12 May 2018 11:12:30 -0700

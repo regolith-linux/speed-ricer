@@ -1,0 +1,16 @@
+Source: fonts-source-code-pro-ttf
+Section: fonts
+Priority: optional
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.7
+Homepage: https://github.com/adobe-fonts/source-code-pro
+
+Package: fonts-source-code-pro-ttf
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Suggests: fontconfig
+Description: monospace font for pretty code listings and for the terminal
+ Source Code Pro is a set of OpenType fonts that have been designed to work well 
+ in user interface (UI) environments.
