@@ -1,3 +1,9 @@
+nordic (1.6.5.2-1ubuntu1~ppa1) disco; urgency=medium
+
+  * Take commit 8e93a66a96bc89e88662b7ad61b243614b2807ae for sidebar fix.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Tue, 03 Sep 2019 21:47:12 -0700
+
 nordic (1.6.5-1ubuntu1ppa1) disco; urgency=medium
 
   * Initial release
