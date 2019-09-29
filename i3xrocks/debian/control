@@ -1,5 +1,5 @@
 Source: i3xrocks
-Section: unknown
+Section: x11
 Priority: optional
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Build-Depends: debhelper (>= 11), libxcb1-dev, libxcb-xrm-dev
