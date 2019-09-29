@@ -1,0 +1,32 @@
+Index: fonts-source-code-pro-ttf/Makefile
+===================================================================
+--- /dev/null
++++ fonts-source-code-pro-ttf/Makefile
+@@ -0,0 +1,27 @@
++INSTALL = install
++DESTDIR ?= /
++PREFIX  ?= $(DESTDIR)
++
++all:
++	@echo "Nothing to do"
++
++install:
++	$(INSTALL) -m0644 -D Italic/Instances/BlackIt/font.ttf $(PREFIX)/usr/share/fonts/truetype/source-code-pro-ttf/SourceCodePro-BlackIt.ttf
++	$(INSTALL) -m0644 -D Italic/Instances/BoldIt/font.ttf $(PREFIX)/usr/share/fonts/truetype/source-code-pro-ttf/SourceCodePro-BoldIt.ttf
++	$(INSTALL) -m0644 -D Italic/Instances/ExtraLightIt/font.ttf $(PREFIX)/usr/share/fonts/truetype/source-code-pro-ttf/SourceCodePro-ExtraLightIt.tt
++	$(INSTALL) -m0644 -D Italic/Instances/It/font.ttf $(PREFIX)/usr/share/fonts/truetype/source-code-pro-ttf/SourceCodePro-It.tt
++	$(INSTALL) -m0644 -D Italic/Instances/LightIt/font.ttf $(PREFIX)/usr/share/fonts/truetype/source-code-pro-ttf/SourceCodePro-LightIt.tt
++	$(INSTALL) -m0644 -D Italic/Instances/MediumIt/font.ttf $(PREFIX)/usr/share/fonts/truetype/source-code-pro-ttf/SourceCodePro-MediumIt.tt
++	$(INSTALL) -m0644 -D Italic/Instances/SemiboldIt/font.ttf $(PREFIX)/usr/share/fonts/truetype/source-code-pro-ttf/SourceCodePro-SemiboldIt.tt
++	$(INSTALL) -m0644 -D Roman/Instances/Black/font.ttf $(PREFIX)/usr/share/fonts/truetype/source-code-pro-ttf/SourceCodePro-Black.tt
++	$(INSTALL) -m0644 -D Roman/Instances/Bold/font.ttf $(PREFIX)/usr/share/fonts/truetype/source-code-pro-ttf/SourceCodePro-Bold.tt
++	$(INSTALL) -m0644 -D Roman/Instances/ExtraLight/font.ttf $(PREFIX)/usr/share/fonts/truetype/source-code-pro-ttf/SourceCodePro-ExtraLight.tt
++	$(INSTALL) -m0644 -D Roman/Instances/Light/font.ttf $(PREFIX)/usr/share/fonts/truetype/source-code-pro-ttf/SourceCodePro-Light.tt
++	$(INSTALL) -m0644 -D Roman/Instances/Medium/font.ttf $(PREFIX)/usr/share/fonts/truetype/source-code-pro-ttf/SourceCodePro-Medium.tt
++	$(INSTALL) -m0644 -D Roman/Instances/Regular/font.ttf $(PREFIX)/usr/share/fonts/truetype/source-code-pro-ttf/SourceCodePro-Regular.tt
++	$(INSTALL) -m0644 -D Roman/Instances/Semibold/font.ttf $(PREFIX)/usr/share/fonts/truetype/source-code-pro-ttf/SourceCodePro-Semibold.tt
++
++uninstall:
++	rm -rf $(PREFIX)/usr/share/fonts/truetype/source-code-pro-ttf
++
++.PHONY: all install uninstall

@@ -1,3 +1,8 @@
 #!/usr/bin/make -f
+
+override_dh_install:
+	find .
+	dh_install
+
 %:
 	dh $@
