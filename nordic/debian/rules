@@ -1,4 +1,9 @@
 #!/usr/bin/make -f
 
+override_dh_install:
+	mkdir Nordic
+	mv Art Gulpfile.js LICENSE README.md assets gnome-shell gtk-2.0 gtk-3.0 index.theme metacity-1 package-lock.json package.json src xfwm4 Nordic
+	dh_install
+
 %:
 	dh $@

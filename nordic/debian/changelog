@@ -1,3 +1,9 @@
+nordic (1.6.5.2-1ubuntu1~ppa2) disco; urgency=medium
+
+  * Update build to use standard upstream tarball. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 28 Sep 2019 23:08:01 -0700
+
 nordic (1.6.5.2-1ubuntu1~ppa1) disco; urgency=medium
 
   * Take commit 8e93a66a96bc89e88662b7ad61b243614b2807ae for sidebar fix.
