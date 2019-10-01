@@ -1,3 +1,9 @@
+compton (7.4-0ubuntu1~ppa1) disco; urgency=medium
+
+  * Take upstream 7.4 release. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Mon, 30 Sep 2019 19:43:27 -0700
+
 compton (7.3-0ubuntu1~ppa8) bionic; urgency=medium
 
   * Specify debhelper-compat v11 for Bionic support 
