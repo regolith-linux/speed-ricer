@@ -1,5 +1,5 @@
-debian/tmp/etc
-debian/tmp/usr
+debian/tmp/etc/
+debian/tmp/usr/bin/
 contrib/dump-asy.pl usr/share/doc/i3-wm/examples/
 contrib/gtk-tree-watch.pl usr/share/doc/i3-wm/examples/
 contrib/i3-wsbar usr/share/doc/i3-wm/examples/

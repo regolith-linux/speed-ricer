@@ -1,3 +1,9 @@
+i3-gaps-wm (4.17.1~1ubuntu1~ppa2) disco; urgency=medium
+
+  * Extract xsession from i3-gaps-wm package. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Tue, 05 Nov 2019 07:19:15 -0800
+
 i3-gaps-wm (4.17.1~1ubuntu1~ppa1) disco; urgency=medium
 
   * Package upstream release 4.17.1. 
