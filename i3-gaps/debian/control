@@ -13,6 +13,7 @@ Build-Depends: debhelper (>= 9),
                libxcb-cursor-dev,
                libxcb-xrm-dev,
                libxcb-xkb-dev,
+               libxcb-shape0-dev,
                libxkbcommon-dev (>= 0.4.0),
                libxkbcommon-x11-dev (>= 0.4.0),
                asciidoc (>= 8.4.4),
@@ -25,8 +26,7 @@ Build-Depends: debhelper (>= 9),
                libstartup-notification0-dev (>= 0.10),
                libcairo2-dev (>= 1.14.4),
                libpango1.0-dev,
-               libpod-simple-perl,
-               quilt
+               libpod-simple-perl
 Standards-Version: 3.9.8
 Homepage: https://i3wm.org/
 
