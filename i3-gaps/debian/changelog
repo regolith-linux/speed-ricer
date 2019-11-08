@@ -1,3 +1,9 @@
+i3-gaps-wm (4.17.1~1ubuntu1~ppa3) disco; urgency=medium
+
+  * Remove Debian file for non-existant html userguide. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Thu, 07 Nov 2019 20:10:36 -0800
+
 i3-gaps-wm (4.17.1~1ubuntu1~ppa2) disco; urgency=medium
 
   * Extract xsession from i3-gaps-wm package. 
