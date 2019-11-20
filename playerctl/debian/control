@@ -1,0 +1,128 @@
+Source: playerctl
+Section: sound
+Priority: optional
+Maintainer: Nick Morrott <knowledgejunkie@gmail.com>
+Build-Depends: debhelper (>= 11),
+               gobject-introspection,
+               gtk-doc-tools,
+               intltool,
+               libgirepository1.0-dev,
+               libglib2.0-dev,
+               pkg-config,
+               meson (>= 0.45.0)
+Standards-Version: 4.2.0
+Homepage: https://github.com/acrisci/playerctl
+Vcs-Git: https://salsa.debian.org/nickm-guest/playerctl.git
+Vcs-Browser: https://salsa.debian.org/nickm-guest/playerctl
+
+Package: playerctl
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         dbus
+Suggests: audacious,
+          cmus,
+          mopidy,
+          mpd,
+          quodlibet,
+          rhythmbox-plugins,
+          vlc,
+          xmms2
+Enhances: awesome,
+          i3-wm,
+          xmonad
+Description: utility to control media players via MPRIS
+ Playerctl is a command-line utility and library for controlling media players
+ that implement the MPRIS D-Bus Interface Specification. Compatible players
+ include audacious, cmus, mopidy, mpd, quod libet, rhythmbox, spotify, vlc and
+ xmms2.
+ .
+ Playerctl makes it easy to bind player actions, such as play and pause,
+ to media keys. Playerctl also provides an introspectable library accessible
+ in many popular scripting languages that allows more detailed control like
+ the ability to subscribe to media player events or get metadata such as
+ artist and title for the playing track.
+
+Package: libplayerctl-1.0-0
+Architecture: any
+Multi-Arch: same
+Section: libs
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Description: utility to control media players via MPRIS (library)
+ Playerctl is a command-line utility and library for controlling media players
+ that implement the MPRIS D-Bus Interface Specification. Compatible players
+ include audacious, cmus, mopidy, mpd, quod libet, rhythmbox, spotify, vlc and
+ xmms2.
+ .
+ Playerctl makes it easy to bind player actions, such as play and pause,
+ to media keys. Playerctl also provides an introspectable library accessible
+ in many popular scripting languages that allows more detailed control like
+ the ability to subscribe to media player events or get metadata such as
+ artist and title for the playing track.
+ .
+ This package contains the shared library.
+
+Package: libplayerctl-dev
+Architecture: any
+Multi-Arch: same
+Section: libdevel
+Depends: libplayerctl-1.0-0 (= ${binary:Version}),
+         gir1.2-playerctl-1.0 (= ${binary:Version}),
+         libglib2.0-dev,
+         ${misc:Depends}
+Suggests: libplayerctl-doc
+Description: utility to control media players via MPRIS (development files)
+ Playerctl is a command-line utility and library for controlling media players
+ that implement the MPRIS D-Bus Interface Specification. Compatible players
+ include audacious, cmus, mopidy, mpd, quod libet, rhythmbox, spotify, vlc and
+ xmms2.
+ .
+ Playerctl makes it easy to bind player actions, such as play and pause,
+ to media keys. Playerctl also provides an introspectable library accessible
+ in many popular scripting languages that allows more detailed control like
+ the ability to subscribe to media player events or get metadata such as
+ artist and title for the playing track.
+ .
+ This package contains the development files.
+
+Package: libplayerctl-doc
+Architecture: all
+Multi-Arch: foreign
+Section: doc
+Depends: ${misc:Depends}
+Suggests: devhelp
+Description: utility to control media players via MPRIS (documentation)
+ Playerctl is a command-line utility and library for controlling media players
+ that implement the MPRIS D-Bus Interface Specification. Compatible players
+ include audacious, cmus, mopidy, mpd, quod libet, rhythmbox, spotify, vlc and
+ xmms2.
+ .
+ Playerctl makes it easy to bind player actions, such as play and pause,
+ to media keys. Playerctl also provides an introspectable library accessible
+ in many popular scripting languages that allows more detailed control like
+ the ability to subscribe to media player events or get metadata such as
+ artist and title for the playing track.
+ .
+ This package contains the API documentation.
+
+Package: gir1.2-playerctl-1.0
+Architecture: any
+Multi-Arch: same
+Section: introspection
+Depends: ${misc:Depends},
+         ${gir:Depends}
+Description: utility to control media players via MPRIS (gir bindings)
+ Playerctl is a command-line utility and library for controlling media players
+ that implement the MPRIS D-Bus Interface Specification. Compatible players
+ include audacious, cmus, mopidy, mpd, quod libet, rhythmbox, spotify, vlc and
+ xmms2.
+ .
+ Playerctl makes it easy to bind player actions, such as play and pause,
+ to media keys. Playerctl also provides an introspectable library accessible
+ in many popular scripting languages that allows more detailed control like
+ the ability to subscribe to media player events or get metadata such as
+ artist and title for the playing track.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings.

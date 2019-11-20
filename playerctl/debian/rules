@@ -1,0 +1,25 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,-z,defs -Wl,--as-needed
+export DPKG_GENSYMBOLS_CHECK_LEVEL = 4
+
+ignored_libraries := -Xlibplayerctl-2.0.2.la -Xlibplayerctl-2.0.2.a
+
+%:
+	dh $@ --with gir
+
+override_dh_auto_configure:
+	dh_auto_configure --
+
+# All binary packages get the upstream changelog
+override_dh_installchangelogs:
+	dh_installchangelogs -A CHANGELOG.md
+
+override_dh_install:
+	pwd
+	find .
+	dh_install ${ignored_libraries}
+
+override_dh_missing:
+	dh_missing ${ignored_libraries} --fail-missing

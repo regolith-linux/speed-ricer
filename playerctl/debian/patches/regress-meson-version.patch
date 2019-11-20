@@ -1,0 +1,63 @@
+Revert meson version from 0.46 to 0.45 to appease package builder.
+Index: playerctl-2.0.2/meson.build
+===================================================================
+--- playerctl-2.0.2.orig/meson.build
++++ playerctl-2.0.2/meson.build
+@@ -2,7 +2,7 @@ project(
+   'playerctl',
+   'c',
+   version: '2.0.2',
+-  meson_version: '>=0.46.0'
++  meson_version: '>=0.45.0'
+ )
+ 
+ release_month = 'March 2019'
+Index: playerctl-2.0.2/playerctl/meson.build
+===================================================================
+--- playerctl-2.0.2.orig/playerctl/meson.build
++++ playerctl-2.0.2/playerctl/meson.build
+@@ -47,7 +47,16 @@ deps = [
+   gio_dep,
+ ]
+ 
+-playerctl_lib = both_libraries(
++playerctl_lib = shared_library(
++  'playerctl',
++  playerctl_sources, enums,
++  dependencies: deps,
++  include_directories: configuration_inc,
++  version: playerctl_version,
++  install: true,
++)
++
++playerctl_lib_static = static_library(
+   'playerctl',
+   playerctl_sources, enums,
+   dependencies: deps,
+@@ -58,7 +67,7 @@ playerctl_lib = both_libraries(
+ 
+ # Required for linking against the shared lib we just built
+ playerctl_shared_link = declare_dependency(
+-  link_with: playerctl_lib.get_shared_lib(),
++  link_with: playerctl_lib,
+   dependencies: deps,
+ )
+ 
+@@ -85,7 +94,7 @@ if get_option('introspection')
+   endif
+ 
+   gnome.generate_gir(
+-    playerctl_lib.get_shared_lib(),
++    playerctl_lib,
+     sources: [
+       enums,
+       'playerctl-player-name.c',
+@@ -104,7 +113,7 @@ if get_option('introspection')
+ endif
+ 
+ pkgconfig.generate(
+-  libraries: playerctl_lib.get_shared_lib(),
++  libraries: [ playerctl_lib, playerctl_lib_static],
+   subdirs: 'playerctl',
+   version: meson.project_version(),
+   name: 'Playerctl',

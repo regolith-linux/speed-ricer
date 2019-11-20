@@ -1,0 +1,40 @@
+playerctl (2.0.2-1ubuntu1~ppa2) eoan; urgency=medium
+
+  * New upstream version 2.0.2 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Tue, 19 Nov 2019 07:35:20 -0800
+
+playerctl (0.6.1-1) unstable; urgency=medium
+
+  * New upstream version 0.6.1
+  * debian/control:
+    - declare compliance with Debian Policy 4.2.0 (no changes)
+    - migrate Vcs-* fields to salsa.debian.org
+  * debian/patches:
+    - Drop 0001-manpage-version.patch (applied upstream)
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Wed, 22 Aug 2018 23:24:26 +0100
+
+playerctl (0.6.0-1) unstable; urgency=medium
+
+  * New upstream version 0.6.0
+  * debian/copyright: refresh for 0.6.0 release
+  * debian/patches:
+    - Drop 0001-fix-parallel-build.patch (applied upstream)
+    - Drop 0002-add-upstream-changelog.patch (applied upstream)
+    - Drop 0003-rename-gir-files.patch (applied upstream)
+    - Drop 0004-playerctl-manpage.patch (applied upstream)
+    - Add 0001-manpage-version.patch
+  * debian/rules:
+    - remove unnecessary comments
+    - refactor ignored libraries into variable
+    - update for new upstream changelog
+    - set DPKG_GENSYMBOLS_CHECK_LEVEL = 4 to strongly interrogate symbols
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Tue, 22 May 2018 09:37:13 +0100
+
+playerctl (0.5.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #818044)
+
+ -- Nick Morrott <knowledgejunkie@gmail.com>  Sat, 14 Apr 2018 04:08:27 +0100

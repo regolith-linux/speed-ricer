@@ -1,0 +1,55 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Contact: Tony Crisci <tony@dubstepdish.com>
+Upstream-Name: playerctl
+Source: https://github.com/acrisci/playerctl
+
+Files: *
+Copyright: 2014, Tony Crisci <tony@dubstepdish.com>
+License: LGPL-3.0+
+
+Files: playerctl/playerctl-cli.c
+       playerctl/playerctl-player.c
+Copyright: 2014 - 2016, Tony Crisci <tony@dubstepdish.com> and contributors
+License: LGPL-3.0+
+
+Files: CHANGELOG.md
+       CONTRIBUTORS
+       Makefile.am
+       autogen.sh
+       doc/Makefile.am
+       doc/meson.build
+       doc/reference/Makefile.am
+       doc/reference/meson.build
+       doc/reference/version.xml.in
+       example.py
+       fpm-packages.sh
+       meson.build
+       meson_options.txt
+       playerctl/Makefile.am
+       playerctl/meson.build
+       playerctl/playerctl.pc.in
+Copyright: None
+License: LGPL-3.0+
+Comment:
+ Assume same license as playerctl source code.
+
+Files: debian/*
+Copyright: 2018, Nick Morrott <knowledgejunkie@gmail.com>
+License: LGPL-3.0+
+
+License: LGPL-3.0+
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 3 of the License, or (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License can be found in "/usr/share/common-licenses/LGPL-3".

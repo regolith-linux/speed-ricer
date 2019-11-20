@@ -1,0 +1,12 @@
+usr/include/playerctl/playerctl-player.h
+usr/include/playerctl/playerctl-version.h
+usr/include/playerctl/playerctl.h
+usr/include/playerctl/playerctl-enum-types.h
+usr/include/playerctl/playerctl-player-name.h
+usr/include/playerctl/playerctl-player-manager.h 
+usr/lib/*/pkgconfig/playerctl.pc
+usr/lib/*/libplayerctl.so.2.0.2
+usr/lib/*/libplayerctl.a
+usr/lib/*/libplayerctl.so.2
+usr/lib/*/libplayerctl.so
+usr/share/gir-1.0
