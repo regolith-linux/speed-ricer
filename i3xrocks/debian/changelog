@@ -1,3 +1,9 @@
+i3xrocks (1.2.0-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Merge from upstream version 1.5. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 30 Nov 2019 09:44:18 -0800
+
 i3xrocks (1.1-1ubuntu1ppa2) disco; urgency=medium
 
   * Fix package metadata. 
