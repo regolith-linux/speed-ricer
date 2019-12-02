@@ -1,0 +1,5 @@
+i3ipc-python (2.1.1-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Initial release from https://github.com/altdesktop/i3ipc-python/archive/v2.1.1.tar.gz.
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 01 Dec 2019 16:03:09 -0800
