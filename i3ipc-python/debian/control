@@ -1,5 +1,5 @@
 Source: i3ipc-python
-Section: X11
+Section: x11
 Priority: optional
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Build-Depends: debhelper-compat (= 12),
@@ -16,5 +16,5 @@ X-Python3-Version: >= 3.6
 
 Package: i3ipc-python
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-xlib
 Description: An improved Python library to control i3wm and sway.

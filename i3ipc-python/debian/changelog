@@ -1,4 +1,10 @@
-i3ipc-python (2.1.1-1ubuntu1~ppa1) eoan; urgency=medium
+i3ipc-python (2.1.1-1ubuntu1~ppa4) eoan; urgency=medium
+
+  * Add python-xlib dependency. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 07 Dec 2019 12:28:26 -0800
+
+i3ipc-python (2.1.1-1ubuntu1~ppa2) eoan; urgency=medium
 
   * Initial release from https://github.com/altdesktop/i3ipc-python/archive/v2.1.1.tar.gz.
 
