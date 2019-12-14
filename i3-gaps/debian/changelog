@@ -1,3 +1,13 @@
+i3-gaps-wm (4.17.1-1ubuntu1~ppa4) disco; urgency=medium
+
+  * Bug fix: ship i3 header file.
+  * Bug fix: use correct delimiter in package version spec.
+  * Cleanup: remove nonstandard zip specification.
+  * Cleanup: Update control file Standards-Version.
+  * Cleanup: Add source format specification. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 14 Dec 2019 09:33:01 -0800
+
 i3-gaps-wm (4.17.1~1ubuntu1~ppa3) disco; urgency=medium
 
   * Remove Debian file for non-existant html userguide. 
