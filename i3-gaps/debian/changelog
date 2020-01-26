@@ -1,3 +1,10 @@
+i3-gaps-wm (4.17.1-1ubuntu1~ppa5) eoan; urgency=medium
+
+  * Apply patch from https://github.com/i3/i3/pull/3799 to resolve bar label
+    issue. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sat, 25 Jan 2020 18:26:55 -0800
+
 i3-gaps-wm (4.17.1-1ubuntu1~ppa4) disco; urgency=medium
 
   * Bug fix: ship i3 header file.
