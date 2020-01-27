@@ -5,7 +5,7 @@ Maintainer: Walter Lapchynski <wxl@ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@debian.org>
 Build-Depends:
  asciidoc,
- debhelper-compat (= 11),
+ debhelper,
  docbook-xml,
  docbook-xsl,
  libconfig-dev,
@@ -32,7 +32,7 @@ Build-Depends:
  pkg-config,
  uthash-dev,
  xsltproc
-Standards-Version: 4.4.0
+Standards-Version: 4.1.4
 Homepage: https://github.com/yshui/compton
 
 Package: compton

@@ -1,3 +1,9 @@
+compton (7.4-0ubuntu1~ppa2~bionic3) bionic; urgency=medium
+
+  * Minor cleanup to package metadata. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 26 Jan 2020 17:06:07 -0800
+
 compton (7.4-0ubuntu1~ppa2~bionic2) bionic; urgency=medium
 
   * Bionic version. 
