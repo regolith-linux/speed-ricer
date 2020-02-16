@@ -1,7 +1,7 @@
-ayu-theme (0.1.0-1ubuntu1~ppa2) eoan; urgency=medium
+ayu-theme (0.1.0-1ubuntu1~ppa3) eoan; urgency=medium
 
   * Initial release, copied binary package contents from 
     https://github.com/appelgriebsch/ayu-theme/releases
     (https://github.com/appelgriebsch/ayu-theme/releases/download/ayu-mirage-0.1.0/ayu-mirage-theme_0.1.0-1_amd64.deb)
 
- -- Regolith Linux <regolith.linux@gmail.com>  Sun, 16 Feb 2020 12:11:29 -0800
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 16 Feb 2020 12:11:29 -0800
