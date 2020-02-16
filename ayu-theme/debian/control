@@ -1,0 +1,12 @@
+Source: ayu-theme
+Section: x11
+Priority: extra
+Maintainer: Regolith Linux <regolith.linux@gmail.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.0
+Homepage: https://github.com/appelgriebsch/ayu-theme
+
+Package: ayu-theme
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Ayu Themes for GNOME 3.22
