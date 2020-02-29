@@ -1,3 +1,10 @@
+ayu-theme (0.2.0-1ubuntu1~ppa1) eoan; urgency=medium
+
+  * Add Ayu themes from
+    https://github.com/appelgriebsch/ayu-theme/releases/download/ayu-0.1.0/ayu-theme_0.1.0-1_amd64.deb.
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Fri, 28 Feb 2020 19:18:02 -0800
+
 ayu-theme (0.1.0-1ubuntu1~ppa3) eoan; urgency=medium
 
   * Initial release, copied binary package contents from 
