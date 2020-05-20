@@ -1,0 +1,20 @@
+Source: td-cli
+Section: unknown
+Priority: optional
+Maintainer: Ken Gilmer <kgilmer@gmail.com>
+Build-Depends: debhelper-compat (= 12), dh-python, python3-setuptools, python3-all
+Standards-Version: 4.4.1
+Homepage: https://github.com/darrikonn/td-cli
+Testsuite: autopkgtest-pkg-python
+
+Package: python3-td-cli
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Suggests: python-td-cli-doc
+Description: A todo command line todo manager (Python 3)
+
+Package: python-td-cli-doc
+Architecture: all
+Section: doc
+Depends: ${sphinxdoc:Depends}, ${misc:Depends}
+Description: Documentation for td-cli (common documentation)
