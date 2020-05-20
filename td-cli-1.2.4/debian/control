@@ -1,8 +1,11 @@
 Source: td-cli
-Section: unknown
+Section: utils
 Priority: optional
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
-Build-Depends: debhelper-compat (= 12), dh-python, python3-setuptools, python3-all
+Build-Depends: debhelper (>= 11),
+               dh-python,
+               python3-setuptools,
+               python3-all
 Standards-Version: 4.4.1
 Homepage: https://github.com/darrikonn/td-cli
 Testsuite: autopkgtest-pkg-python
