@@ -1,3 +1,9 @@
+i3ipc-python (2.1.1-1ubuntu1~ppa6) bionic; urgency=medium
+
+  * Update build dependencies hoping to resolve packaing problems. 
+
+ -- Ken Gilmer <kgilmer@gmail.com>  Tue, 19 May 2020 07:29:24 -0700
+
 i3ipc-python (2.1.1-1ubuntu1~ppa4) eoan; urgency=medium
 
   * Add python-xlib dependency. 
