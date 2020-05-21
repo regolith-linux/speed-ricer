@@ -10,13 +10,13 @@ Standards-Version: 4.4.1
 Homepage: https://github.com/darrikonn/td-cli
 Testsuite: autopkgtest-pkg-python
 
-Package: python3-td-cli
+Package: td-cli
 Architecture: all
 Depends: ${python3:Depends}, ${misc:Depends}
 Suggests: python-td-cli-doc
 Description: A todo command line todo manager (Python 3)
 
-Package: python-td-cli-doc
+Package: td-cli-doc
 Architecture: all
 Section: doc
 Depends: ${sphinxdoc:Depends}, ${misc:Depends}
