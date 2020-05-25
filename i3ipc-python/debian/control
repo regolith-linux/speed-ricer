@@ -1,4 +1,4 @@
-Source: i3ipc-python
+Source: python3-i3ipc
 Section: x11
 Priority: optional
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
