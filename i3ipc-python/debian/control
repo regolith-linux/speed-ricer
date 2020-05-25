@@ -12,9 +12,15 @@ Standards-Version: 4.4.0
 Homepage: https://github.com/altdesktop/i3ipc-python
 Vcs-Browser: https://github.com/altdesktop/i3ipc-python
 Vcs-Git: https://github.com/altdesktop/i3ipc-python.git
-X-Python3-Version: >= 3.6
+X-Python3-Version: >= 3.4
 
-Package: i3ipc-python
+Package: python3-i3ipc
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, python3-xlib
+Depends: 
+    ${shlibs:Depends}, 
+    ${python3:Depends},
+    ${misc:Depends}, 
+    python3-xlib,
+    python3-gi,
+    python3-dbus
 Description: An improved Python library to control i3wm and sway.
