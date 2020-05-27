@@ -14,11 +14,4 @@ X-Python3-Version: >= 3.4
 Package: td-cli
 Architecture: all
 Depends: ${python3:Depends}, ${misc:Depends}
-Suggests: td-cli-doc
 Description: A todo command line todo manager (Python 3)
-
-Package: td-cli-doc
-Architecture: all
-Section: doc
-Depends: ${sphinxdoc:Depends}, ${misc:Depends}
-Description: Documentation for td-cli (common documentation)
