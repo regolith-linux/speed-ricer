@@ -24,7 +24,7 @@ Build-Depends: debhelper (>= 10),
                libxcb-xrm-dev,
                libxcb1-dev,
                pkg-config,
-               python-xcbgen,
+               python3-xcbgen,
                xcb-proto
 Standards-Version: 4.1.2
 Homepage: https://github.com/jaagr/polybar
@@ -42,7 +42,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends},
          libxcb-randr0-dev,
          libxcb-util0-dev,
          libxcb1-dev,
-         python-xcbgen,
+         python3-xcbgen,
          xcb-proto
 Description: a fast and easy-to-use status bar
  Polybar aims to help users build beautiful and highly customizable status bars
