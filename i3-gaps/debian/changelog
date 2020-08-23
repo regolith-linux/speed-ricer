@@ -1,8 +1,8 @@
-i3-gaps-wm (4.18.2-1~regolith1) bionic; urgency=medium
+i3-gaps-wm (4.18.2-1~regolith2) bionic; urgency=medium
 
   * Package source from upstream https://github.com/Airblader/i3/releases/tag/4.18.2
 
- -- Regolith Linux <regolith.linux@gmail.com>  Sun, 23 Aug 2020 08:49:11 -0700
+ -- Ken Gilmer <kgilmer@gmail.com>  Sun, 23 Aug 2020 09:08:24 -0700
 
 i3-gaps-wm (4.17.1-1ubuntu1~ppa5) eoan; urgency=medium
 
